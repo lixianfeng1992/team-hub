@@ -42,6 +42,22 @@ body=$(
 
 printf '%s\n\n%s\n' \
   'The i-have-adhd rules apply to every response.' \
-  "$body"
+  "$body" \
+| awk '
+  BEGIN {
+    printf "{\"hookSpecificOutput\":{\"hookEventName\":\"SessionStart\",\"additionalContext\":\""
+  }
+  {
+    if (NR > 1) printf "\\n"
+    gsub(/\\/, "\\\\")
+    gsub(/\"/, "\\\"")
+    gsub(/\t/, "\\t")
+    gsub(/\r/, "\\r")
+    printf "%s", $0
+  }
+  END {
+    print "\"}}"
+  }
+' || exit 0
 
 exit 0
