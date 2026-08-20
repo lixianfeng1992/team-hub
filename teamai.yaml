@@ -1,4 +1,4 @@
 team: team-hub
 description: TeamAI shared team skills, rules, docs, env, hooks, and MCP servers
-repo: https://github.com/your-org/team-hub.git
+repo: git@github.com:lixianfeng1992/team-hub.git
 provider: github
