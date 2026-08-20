@@ -1,8 +1,14 @@
 username: lixianfeng1992
-updatedAt: 2026-08-20T02:14:06.856Z
+updatedAt: 2026-08-20T02:15:08.050Z
 skills: {}
 interventions:
-  sessions: 8
+  sessions: 9
   interrupt: 0
   toolReject: 0
   correction: 0
+prompts: 2
+tokens:
+  input: 0
+  output: 0
+  cacheRead: 0
+  cacheCreation: 0
