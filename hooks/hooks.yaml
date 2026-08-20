@@ -1,1 +1,9 @@
-hooks: []
+hooks:
+  - id: i-have-adhd-always-on
+    description: Inject i-have-adhd rules at session start
+    event: SessionStart
+    # Locate the team-repo from the hook's cwd (walks up to the project root
+    # .teamai/team-repo), falling back to the user-scope clone in $HOME.
+    command: 'sh -c "r=$(pwd); while [ ! -d \"$r/.teamai/team-repo\" ] && [ \"$r\" != \"/\" ]; do r=$(dirname \"$r\"); done; r=\"$r/.teamai/team-repo\"; [ -d \"$r\" ] || r=\"$HOME/.teamai/team-repo\"; [ -f \"$r/scripts/always-on.sh\" ] && sh \"$r/scripts/always-on.sh\"" || true'
+    timeout: 30
+    tools: [claude]
