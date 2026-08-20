@@ -1,12 +1,11 @@
 username: lixianfeng1992
-updatedAt: 2026-08-20T08:00:06.037Z
+updatedAt: 2026-08-20T08:00:15.599Z
 skills:
   ego-browser:
     count: 6
     lastUsed: 2026-08-20T07:11:23.595Z
-prompts: 33
-tokens:
-  input: 0
-  output: 0
-  cacheRead: 0
-  cacheCreation: 0
+interventions:
+  sessions: 1
+  interrupt: 0
+  toolReject: 0
+  correction: 0
