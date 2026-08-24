@@ -1,21 +1,16 @@
 username: lixianfeng1992
-updatedAt: 2026-08-24T07:30:22.633Z
+updatedAt: 2026-08-24T08:09:25.459Z
 skills:
   ego-browser:
     count: 6
     lastUsed: 2026-08-20T07:11:23.595Z
   Users:
-    count: 1
-    lastUsed: 2026-08-21T02:52:09.319Z
+    count: 2
+    lastUsed: 2026-08-24T08:08:26.294Z
   opt:
     count: 1
     lastUsed: 2026-08-21T06:00:56.711Z
-interventions:
-  sessions: 4
-  interrupt: 1
-  toolReject: 0
-  correction: 1
-prompts: 416
+prompts: 438
 tokens:
   input: 84233
   output: 15865
