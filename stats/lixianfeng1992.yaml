@@ -1,5 +1,5 @@
 username: lixianfeng1992
-updatedAt: 2026-08-25T07:48:39.766Z
+updatedAt: 2026-08-25T07:54:25.405Z
 skills:
   ego-browser:
     count: 6
@@ -10,14 +10,9 @@ skills:
   opt:
     count: 1
     lastUsed: 2026-08-21T06:00:56.711Z
-interventions:
-  sessions: 7
-  interrupt: 0
-  toolReject: 0
-  correction: 0
-prompts: 13
+prompts: 19
 tokens:
-  input: 80279
-  output: 510
-  cacheRead: 24064
+  input: 193676
+  output: 5921
+  cacheRead: 462848
   cacheCreation: 0
