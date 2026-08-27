@@ -1,5 +1,5 @@
 username: lixianfeng1992
-updatedAt: 2026-08-27T06:23:09.903Z
+updatedAt: 2026-08-27T06:24:24.115Z
 skills:
   ego-browser:
     count: 6
@@ -16,14 +16,12 @@ skills:
   mai-workflow:paseo:
     count: 3
     lastUsed: 2026-08-26T05:45:00.803Z
-interventions:
-  sessions: 3
-  interrupt: 0
-  toolReject: 0
-  correction: 1
-prompts: 242
+  writing-concise-skills:
+    count: 1
+    lastUsed: 2026-08-27T06:23:26.637Z
+prompts: 243
 tokens:
-  input: 141641
-  output: 7528
-  cacheRead: 429824
+  input: 213815
+  output: 11989
+  cacheRead: 600960
   cacheCreation: 0
